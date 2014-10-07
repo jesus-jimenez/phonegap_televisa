@@ -1,0 +1,202 @@
+body {
+    background: #ededed;
+    font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+    scrollbar-face-color: #bcbcbc;
+    scrollbar-arrow-color: #f1f1f1;
+    scrollbar-track-color: #f1f1f1;
+    scrollbar-shadow-color: #f1f1f1;
+    scrollbar-highlight-color: #f1f1f1;
+    scrollbar-3dlight-color: #f1f1f1;
+    scrollbar-darkshadow-Color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    position: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    background: #fff;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    margin: 0 auto;
+    max-width: 948px;
+    width: 100%;
+}
+
+/*******************************************************/
+
+.hide {
+  display: none;
+}
+.inner img {
+    width: 100%;
+    height: auto;
+}
+.item h4 {
+  display: block;
+  margin: 23px;
+}
+.example {
+  width: 100%;
+  float: left;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.example .item {
+      float: left;
+      margin: 10px 0 0 10px;
+      overflow: hidden;
+      /*height: 100px;*/
+      width: 299px;
+    }
+    .example .item-w2 {
+      background: #ed9393;
+    }
+    .example .item-h2 {
+      height: 299px;
+      background: #7cb744;
+    }
+    .example .item-h3 {
+      height: 299px;
+      background: #38b5e5;
+    }
+    .example .item-small {
+      background: #7cb744;
+      height: 299px;
+      width: 299px;
+    }
+    .example .item-large {
+      height: 299px;
+      width: 299px;
+    }
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+.ui-btn {
+  width: 100%;
+  padding: 10px 0;
+}
+.ui-text-btn {
+  text-align: center;
+  display: block;
+  color: #FFF;
+}
+.ui-color-primary {
+  background-color: #f68428;
+}
+/* hover */
+.cat-icon {
+  background: #dbdbdb;
+  top: 0;
+  height: 42px;
+  left: 0;
+  position: absolute;
+  width: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+
+/**** Infinite Scroll ****/
+
+#infscr-loading {
+  position: fixed;
+  text-align: center;
+  bottom: 90px;
+  left: 42%;
+  width: 150px;
+  z-index: 100;
+  background: white;
+  background: hsla( 0, 0%, 100%, 0.9 );
+  padding: 20px;
+  color: #222;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.2s;
+     -moz-transition-duration: 0.2s;
+      -ms-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/*@media only screen and (max-width: 947px) {
+  .wrapper, .example {
+    width: 640px;
+  }
+}
+@media only screen and (max-width: 638px) {
+  .wrapper, .example {
+    width: 320px;
+  }
+  .inner img {
+    width: 100%;
+  }
+}*/
