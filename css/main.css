@@ -38,10 +38,9 @@ ul li {
 .hide {
   display: none;
 }
-/*.inner img {
-    width: 100%;
-    height: auto;
-}*/
+.inner img {
+    display: inline-block;
+}
 .item h4 {
   display: inline-block;
   margin: 23px;

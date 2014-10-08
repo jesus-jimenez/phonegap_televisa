@@ -46,14 +46,12 @@
 						});
 						//$item.css({ height: $item.height() });
 						
-						/*if ($item.find('h4').length) {
-							var margint = parseInt($item.find('h4').css("margin-top"));
-							var marginb = parseInt($item.find('h4').css("margin-bottom"));
-							$item.css({ height: $item.find('img').height()+$item.find('h4').height()+margint+marginb });
+						if ($item.find('h4').length) {
+							$item.css({ height: $item.find('img').outerHeight(true)+$item.find('h4').outerHeight(true) });
 						}else if ($item.find('img').length) {
 							$item.css({ height: $item.find('img').height() });
 						}
-						console.log($item.find('h4').css("margin-top"));*/
+						//console.log($item.find('h4').css("margin-top"));
 						//$item.find('img').height(Math.round(($item.find('.inner').width()/16)*9));
 						$item.find('.cat-icon').removeClass('hide');
 					});
