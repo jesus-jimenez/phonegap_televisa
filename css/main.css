@@ -38,10 +38,10 @@ ul li {
 .hide {
   display: none;
 }
-.inner img {
+/*.inner img {
     width: 100%;
     height: auto;
-}
+}*/
 .item h4 {
   display: block;
   margin: 23px;
@@ -97,11 +97,11 @@ ul li {
   color: #FFF;
 }
 .ui-color-primary {
-  background-color: #f68428;
+  background-color: #3d3d3d;
 }
 /* hover */
 .cat-icon {
-  background: #dbdbdb;
+  background: #3d3d3d;
   top: 0;
   height: 42px;
   left: 0;
@@ -109,6 +109,7 @@ ul li {
   width: 42px;
   text-align: center;
   line-height: 42px;
+  color: #FFF;
 }
 
 /**** Infinite Scroll ****/
