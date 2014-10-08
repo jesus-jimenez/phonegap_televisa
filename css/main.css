@@ -43,7 +43,7 @@ ul li {
     height: auto;
 }*/
 .item h4 {
-  display: block;
+  display: inline-block;
   margin: 23px;
 }
 .example {
